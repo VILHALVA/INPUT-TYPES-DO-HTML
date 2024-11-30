@@ -1,10 +1,9 @@
 # INPUT TYPES DO HTML
 👨‍🏫O PROJETO É UMA DEMONSTRAÇÃO INTERATIVA DE DIVERSOS TIPOS DE INPUTS DE FORMULÁRIO DISPONÍVEIS NO HTML5.
 
-<img src="./IMAGENS/FOTO_1.png" align="center" width="500"> <br>
-<img src="./IMAGENS/FOTO_2.png" align="center" width="500"> <br>
-<img src="./IMAGENS/FOTO_3.png" align="center" width="500"> <br>
-<img src="./IMAGENS/FOTO_4.png" align="center" width="500"> <br>
+<img src="./IMAGENS/FOTO_01.png" align="center" width="500"> <br>
+<img src="./IMAGENS/FOTO_02.png" align="center" width="500"> <br>
+<img src="./IMAGENS/FOTO_03.png" align="center" width="500"> <br>
 
 ## DESCRIÇÃO:
 O projeto é uma demonstração interativa de diversos tipos de inputs de formulário disponíveis no HTML5. Ele tem como objetivo ilustrar o uso dos tipos de campo de entrada (`input`) e fornecer feedback em tempo real para o usuário à medida que ele interage com os campos do formulário. O foco está em validar e fornecer mensagens de erro ou confirmação relacionadas ao valor inserido em cada campo. Além disso, o projeto também apresenta elementos de interface, como seleção de cores, checkboxes, botões de rádio e faixas de seleção.
