@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUTTYPES</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>INPUT TYPES DO HTML</h1>
+        <form id="inputForm">
+            <div class="input-group">
+                <label for="textInput">TEXTO (type="text"):</label>
+                <input type="text" id="textInput" name="textInput" placeholder="Digite seu texto" required>
+                <div class="feedback" id="feedbackText"></div>
+            </div>
+
+            <div class="input-group">
+                <label for="emailInput">E-MAIL (type="email"):</label>
+                <input type="email" id="emailInput" name="emailInput" placeholder="Digite seu e-mail" required>
+                <div class="feedback" id="feedbackEmail"></div>
+            </div>
+
+            <div class="input-group">
+                <label for="passwordInput">SENHA (type="password"):</label>
+                <input type="password" id="passwordInput" name="passwordInput" placeholder="Digite sua senha" required>
+                <div class="feedback" id="feedbackPassword"></div>
+            </div>
+
+            <div class="input-group">
+                <label for="numberInput">NÚMERO (type="number"):</label>
+                <input type="number" id="numberInput" name="numberInput" placeholder="Digite um número" required>
+                <div class="feedback" id="feedbackNumber"></div>
+            </div>
+
+            <div class="input-group">
+                <label for="urlInput">URL (type="url"):</label>
+                <input type="url" id="urlInput" name="urlInput" placeholder="Digite uma URL" required>
+                <div class="feedback" id="feedbackURL"></div>
+            </div>
+
+            <div class="input-group">
+                <label for="telInput">TELEFONE (type="tel"):</label>
+                <input type="tel" id="telInput" name="telInput" placeholder="Digite seu telefone" required>
+                <div class="feedback" id="feedbackTel"></div>
+            </div>
+
+            <div class="input-group">
+                <label for="dateInput">DATA (type="date"):</label>
+                <input type="date" id="dateInput" name="dateInput" required>
+                <div class="feedback" id="feedbackDate"></div>
+            </div>
+
+            <div class="input-group">
+                <label for="timeInput">HORA (type="time"):</label>
+                <input type="time" id="timeInput" name="timeInput" required>
+                <div class="feedback" id="feedbackTime"></div>
+            </div>
+
+            <div class="input-group">
+                <label>CHECKBOX (type="checkbox"):</label>
+                <div class="input-inline">
+                    <input type="checkbox" id="checkbox1" name="checkboxGroup" value="Sim">
+                    <label for="checkbox1">SIM</label>
+                    <input type="checkbox" id="checkbox2" name="checkboxGroup" value="Não">
+                    <label for="checkbox2">NÃO</label>
+                </div>
+                <div class="feedback" id="feedbackCheckbox"></div>
+            </div>
+            
+            <div class="input-group">
+                <label>RADIO (type="radio"):</label>
+                <div class="input-inline">
+                    <input type="radio" id="radio1" name="radioGroup" value="Sim">
+                    <label for="radio1">SIM</label>
+                    <input type="radio" id="radio2" name="radioGroup" value="Não">
+                    <label for="radio2">NÃO</label>
+                </div>
+                <div class="feedback" id="feedbackRadio"></div>
+            </div>            
+
+            <div class="input-group">
+                <label for="searchInput">BUSCAR (type="search"):</label>
+                <input type="search" id="searchInput" name="searchInput" placeholder="Digite sua busca">
+                <div class="feedback" id="feedbackSearch"></div>
+            </div>
+
+            <div class="input-group">
+                <label for="colorInput">COR (type="color"):</label>
+                <div id="colorDisplay" class="color-display"></div>
+                <input type="color" id="colorInput" name="colorInput" style="display: none;">
+                <div class="feedback" id="feedbackColor"></div>
+            </div>
+            
+            <div class="input-group">
+                <label for="rangeInput">FAIXA (type="range"):</label>
+                <input type="range" id="rangeInput" name="rangeInput" min="0" max="100" step="1">
+                <div class="feedback" id="feedbackRange"></div>
+            </div>
+
+            <div class="input-group">
+                <label for="fileInput">ARQUIVO (type="file"):</label>
+                <input type="file" id="fileInput" name="fileInput" accept="image/*" required>
+                <div class="feedback" id="feedbackFile"></div>
+            </div>
+
+            <button type="submit">ENVIAR</button>
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
